@@ -1,4 +1,4 @@
-CP3-Solved-Problems
+CP3 Solved Problems
 =============
 
 These are my solutions to the problems presented in the book "Competitive Programming 3". I have created all of the code myself.
