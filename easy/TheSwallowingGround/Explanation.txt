@@ -1,0 +1,7 @@
+The ground can only be moved together, i.e, if you move one landmass block in one column, you must move one landmass block in all the other columns in that same direction (up or down).
+
+As the landmass moved block can't be placed on top of another landmass block, the solution is to check if the number of holes in each column is the same.
+
+Approach:
+
+ Declare a variable that contains the first gap length (this can be calculated by the absolute difference between the north-most row and the south-most row of the gap), then check if the gap length is the same in all the columns (set up a flag (boolean initialized to true) and turn it off if the gap length is not the same in all the columns).
